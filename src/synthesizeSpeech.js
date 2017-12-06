@@ -15,7 +15,7 @@ export default (ctx) => {
   return synthesizeSpeech
     .then((data) => {
       response.json({
-        msg: 'Text converted',
+        message: 'Text converted',
         data,
       });
     })

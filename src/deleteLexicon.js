@@ -15,6 +15,7 @@ export default (ctx) => {
       response.json({
         statusCode: 200,
         message: 'Lexicon Deleted',
+        data,
       });
     })
     .catch((err) => {
